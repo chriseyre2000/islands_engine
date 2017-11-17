@@ -1,21 +1,9 @@
 # IslandsEngine
 
-**TODO: Add description**
+This is the sample application from Functional Web Development with Elixir, OTP and Phoenix (Beta 6).
 
-## Installation
+It's a variant of battleships - you try to forest the opponents islands.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `islands_engine` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:islands_engine, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/islands_engine](https://hexdocs.pm/islands_engine).
+I have deviated from the text code since I prefer to avoid one line functions.
+Also I have added some unit tests
 
