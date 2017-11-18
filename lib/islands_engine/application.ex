@@ -8,6 +8,7 @@ defmodule IslandsEngine.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
+      {Registry, keys: :unique, name: Registry.Game}
       # Starts a worker by calling: IslandsEngine.Worker.start_link(arg)
       # {IslandsEngine.Worker, arg},
     ]
